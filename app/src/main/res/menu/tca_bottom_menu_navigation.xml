@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/SearchMenuIcon"
+        android:title="Search"
+        android:icon="@drawable/search_icon_foreground"/>
+    <item
+    android:id="@+id/SavedSearchesIcon"
+    android:title=""/>
+    <!--android:icon="@drawable/saved_icon_foreground"-->
+    <item
+        android:id="@+id/AboutUsIcon"
+        android:title="About Us"
+        android:icon="@drawable/aboutus_icon_foreground"/>
+</menu>

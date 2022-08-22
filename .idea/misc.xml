@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/aboutus_icon_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/aboutus_icon_foreground.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/cocktail_image_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/search_result_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/selectedCocktailNameIcon_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/selected_cocktail_name_icon.xml" value="0.179" />
+        <entry key="app/src/main/res/drawable/text_and_button_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/layout/about_us_fragment.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/current_selected_cocktail.xml" value="0.3390625" />
+        <entry key="app/src/main/res/layout/daily_recomendations_fragment.xml" value="0.3390625" />
+        <entry key="app/src/main/res/layout/search_menu_fragment.xml" value="0.1935483870967742" />
+        <entry key="app/src/main/res/layout/search_menu_result_view.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/tca_main_frame.xml" value="0.3390625" />
+        <entry key="app/src/main/res/menu/tca_bottom_menu_navigation.xml" value="0.325" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/selectedCocktailNameIcon.xml" value="0.1835" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/selectedCocktailNameIcon_round.xml" value="0.179" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
