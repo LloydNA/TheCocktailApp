@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.thecocktailapp.misc.TCAXCocktailData
 import com.example.thecocktailapp.databinding.CurrentSelectedCocktailBinding
+import com.example.thecocktailapp.misc.RoundedCornersTransform
 import com.squareup.picasso.Picasso
 
 class TCACurrentSelectedCocktailFragment(val arPosition : Int, val arSearchMode : Char) : Fragment() {
@@ -36,7 +37,7 @@ class TCACurrentSelectedCocktailFragment(val arPosition : Int, val arSearchMode 
             else -> TCAXCocktailData.sDailyInstance.obCocktailData.getJSONObject(arPosition)
         }
 
-        Picasso.get().load(loCurrentDrink.getString("strDrinkThumb")).fit().centerInside().into(obBinding.currentSelectedCocktailImage)
+        Picasso.get().load(loCurrentDrink.getString("strDrinkThumb")).fit().centerInside().transform(RoundedCornersTransform()).into(obBinding.currentSelectedCocktailImage)
 
         obBinding.selectedCocktailNameText.text = loCurrentDrink.getString("strDrink")
         obBinding.selectedCocktailCategoryText.text = loCurrentDrink.getString("strCategory")
