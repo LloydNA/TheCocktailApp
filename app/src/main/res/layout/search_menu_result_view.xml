@@ -12,12 +12,13 @@
             android:id="@+id/searchResultImage"
             android:layout_width="75dp"
             android:layout_height="75dp"
-            android:layout_marginStart="20dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="7dp"
             android:layout_marginBottom="7dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/text_and_button_background"
             app:srcCompat="@mipmap/cocktail_image_round" />
 
         <TextView

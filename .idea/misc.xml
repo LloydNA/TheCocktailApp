@@ -6,6 +6,7 @@
         <entry key="app/src/main/res/drawable/aboutus_icon_background.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable/aboutus_icon_foreground.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable/cocktail_image_background.xml" value="0.1835" />
+        <entry key="app/src/main/res/drawable/search_icon_foreground.xml" value="0.179" />
         <entry key="app/src/main/res/drawable/search_result_background.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable/selectedCocktailNameIcon_background.xml" value="0.1835" />
         <entry key="app/src/main/res/drawable/selected_cocktail_name_icon.xml" value="0.179" />

@@ -1,10 +1,12 @@
 package com.example.thecocktailapp.tcaUI.adapters
 
 import android.view.LayoutInflater
+import android.view.RoundedCorner
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.thecocktailapp.misc.TCAXCocktailData
 import com.example.thecocktailapp.databinding.SearchMenuResultViewBinding
+import com.example.thecocktailapp.misc.RoundedCornersTransform
 import com.squareup.picasso.Picasso
 
 class TCASearchResultsAdapter(var arClickListener : (arPosition : Int) -> (Unit), var arIsDailySearchMode : ArrayList<Boolean>) : RecyclerView.Adapter<TCASearchResultsAdapter.ViewHolder>() {
@@ -37,7 +39,7 @@ class TCASearchResultsAdapter(var arClickListener : (arPosition : Int) -> (Unit)
         holder.obBinding.searchResultDrinkCategory.text = loCurrentDrink.getString("strCategory")
         holder.obBinding.searchResultDrinkAlcoholic.text = loCurrentDrink.getString("strAlcoholic")
 
-        Picasso.get().load(loCurrentDrink.getString("strDrinkThumb")).fit().centerInside().into(holder.obBinding.searchResultImage)
+        Picasso.get().load(loCurrentDrink.getString("strDrinkThumb")).fit().centerInside().transform(RoundedCornersTransform()).into(holder.obBinding.searchResultImage)
     }
 
     override fun getItemCount(): Int {
